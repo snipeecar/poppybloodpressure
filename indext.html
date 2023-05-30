@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Pressure App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Pressure App</h1>
+        <div class="input-section">
+            <label for="systolic">Top Number:</label>
+            <input type="number" id="systolic" placeholder="Enter systolic value">
+            <label for="diastolic">Bottom Number:</label>
+            <input type="number" id="diastolic" placeholder="Enter diastolic value">
+            <button onclick="submit()">Submit</button>
+        </div>
+        <div class="readings-section">
+            <h2><center>Readings:</h2></center>
+            <ul id="readings-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
